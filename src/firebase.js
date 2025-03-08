@@ -8,15 +8,17 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyANOGBi5JSrqddCQaEuSa7nAfV_GY-rx6s",
-  authDomain: "netflix-react-clone-34950.firebaseapp.com",
-  projectId: "netflix-react-clone-34950",
-  storageBucket: "netflix-react-clone-34950.appspot.com",
-  messagingSenderId: "802448254151",
-  appId: "1:802448254151:web:a5ec5c28f44912d3828ae2"
+  apiKey: "AIzaSyChzjrGT9SQtQZxuucw7fF79P41Z7RKlPQ",
+  authDomain: "cineflix-6874e.firebaseapp.com",
+  projectId: "cineflix-6874e",
+  storageBucket: "cineflix-6874e.firebasestorage.app",
+  messagingSenderId: "964390555714",
+  appId: "1:964390555714:web:632df4a1f38ae680301ddb",
+  measurementId: "G-RTNGW9KQSQ"
 };
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export const db = getFirestore(app)
+
